@@ -21,7 +21,7 @@ const App = () => {
   React.useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1200);
+    }, 3000);
   }, []);
 
   return (

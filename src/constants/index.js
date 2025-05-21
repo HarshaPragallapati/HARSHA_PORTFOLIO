@@ -335,22 +335,27 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
+        icon: SiSpring,
+        name: "Spring"
+      },
+      {
+        id: "icon-2",
         icon: SiSpringboot,
         name: "SpringBoot"
       },
       {
-        id: "icon-2",
+        id: "icon-3",
         icon: SiMysql,
         name: "My SQL"
         
       },
       {
-        id: "icon-3",
+        id: "icon-4",
         icon: SiPostman,
         name: "Postman"
       },
       {
-        id: "icon-4",
+        id: "icon-5",
         icon: SiSpringsecurity,
         name: "Spring Security"
       }
