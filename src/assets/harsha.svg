@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <style>
+    @keyframes typing {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes draw {
+      to { stroke-dashoffset: 0; }
+    }
+    .name-text {
+      font: bold 190px 'Montserrat', sans-serif;
+      fill: #ffffff;
+      opacity: 0;
+      animation: typing 0.5s steps(1) forwards;
+    }
+    .parenthesis {
+      stroke: #1aede6;
+      stroke-width: 8;
+      fill: none;
+      stroke-linecap: round;
+      stroke-dasharray: 250;
+      stroke-dashoffset: 250;
+      animation: draw 1s forwards 0.5s;
+    }
+  </style>
+
+  <!-- Left Parenthesis (Perfectly centered with text) -->
+  <path class="parenthesis" d="M80,80 Q40,200 80,320" />
+
+  <!-- Perfectly Centered Name -->
+  <text class="name-text" x="110" y="260" style="animation-delay: 0.6s">H</text>
+  <text class="name-text" x="240" y="260" style="animation-delay: 0.9s">A</text>
+  <text class="name-text" x="370" y="260" style="animation-delay: 1.2s">R</text>
+  <text class="name-text" x="500" y="260" style="animation-delay: 1.5s">S</text>
+  <text class="name-text" x="620" y="260" style="animation-delay: 1.8s">H</text>
+  <text class="name-text" x="750" y="260" style="animation-delay: 2.1s">A</text>
+
+  <!-- Right Parenthesis (Mirrored and centered) -->
+  <path class="parenthesis" d="M920,80 Q960,200 920,320" style="animation-delay: 2.4s" />
+</svg>
