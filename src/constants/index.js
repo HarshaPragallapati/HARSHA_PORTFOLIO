@@ -51,7 +51,7 @@ import {
 import { DiCss3, DiJava, DiMsqlServer } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1z7nuP8YkmYl1w7ZSp3_hwg3HXEch8Aai/view?usp=drive_link";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO";
 
 export const callToAction = "https://www.linkedin.com/in/harsha-pragallapati-16a61b324";
 
