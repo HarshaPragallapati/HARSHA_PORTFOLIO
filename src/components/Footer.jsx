@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2 gap-2 justify-items-center md:justify-items-start">
           <a href={resumeLink} target="_blank">
-            <Button styles="mt-10 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
+            <Button styles="mt-10 inline-flex items-center justify-center" text="Resume" />
           </a>
           <a href={repoLink} target="_blank">
             <Button

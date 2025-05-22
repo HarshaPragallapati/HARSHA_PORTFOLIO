@@ -17,6 +17,7 @@ import {
   AiFillLinkedin,
   AiFillMail,
   AiFillHtml5,
+  AiFillPhone
 } from "react-icons/ai";
 
 import {
@@ -50,7 +51,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1z7nuP8YkmYl1w7ZSp3_hwg3HXEch8Aai/view?usp=drivesdk";
+export const resumeLink = "/Harsha_Resume.pdf";
 export const repoLink = "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO";
 
 export const callToAction = "https://www.linkedin.com/in/harsha-pragallapati-16a61b324";
@@ -526,13 +527,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-4",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/harsha_pragallapati",
+    icon: AiFillPhone,
+    link: "tel:+919849105962",
   },
   {
     id: "social-media-5",
-    icon: SiLeetcode,
-    link: "https://www.leetcode.com/harsha_1824",
+    icon: AiFillInstagram,
+    link: "https://www.instagram.com/harsha_pragallapati",
   }
 ];
 
@@ -541,7 +542,7 @@ export const aboutMe = {
     name: "Harsha Pragallapati",
     githubUsername: 'HarshaPragallapati',
     tagLine: "Java Full Stack Developer",
-    intro: "Java Full Stack Developer from India who is either busy improving his craft or pondering over the next big idea."
+    intro: "Java Full Stack Developer from India who is either busy improving his craft or pondering over the next big idea. Experienced in leading teams, contributing to tech communities, and consistently improving through competitive coding."
 }
 
 
