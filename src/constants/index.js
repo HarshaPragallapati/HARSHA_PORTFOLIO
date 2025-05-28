@@ -119,8 +119,7 @@ export const achievements = [
     event: "CodeChef",
     position: "",
     content1: "Active competitive programmer on CodeChef and a regular participant in weekly contests.",
-    content2: "Achieved a 3-star rating.",
-    content3: "Solved 100+ problems across diverse DSA topics.",
+    content3: "Solved 50+ problems across diverse DSA topics.",
     project: "https://www.codechef.com/users/harsha1824",
   }
 ];
