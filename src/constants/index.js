@@ -50,8 +50,8 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1z7nuP8YkmYl1w7ZSp3_hwg3HXEch8Aai/view?usp=drive_link";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1CgPH2BrtkDv6DwdwWWq-joaR4VD6uTeh/view?usp=drivesdk";
+export const repoLink = "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO";
 
 export const callToAction = "https://www.linkedin.com/in/harsha-pragallapati-16a61b324";
 
@@ -106,7 +106,7 @@ export const achievements = [
   {
     id: "a-1",
     icon: leetcode,
-    event: "LeetCode | 100+ problems solved",
+    event: "LeetCode | 150+ problems solved",
     position: "",
     content1: "Developed strong algorithmic thinking through regular coding challenges.",
     content2: "Explored topics including trees, backtracking, searching, recursion, and sliding window etc.",
