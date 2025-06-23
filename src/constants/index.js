@@ -8,7 +8,9 @@ import {
   medic,
   codechef,
   nipuna,
-  employee
+  employee,
+  gfg,
+  library
 } from "../assets";
 
 import {
@@ -40,11 +42,9 @@ import {
   SiCss3,
   SiSpringboot,
   SiHibernate,
-  SiFlask,
   SiLeetcode,
   SiThymeleaf,
   SiSpringsecurity,
-  SiCodechef
 } from "react-icons/si";
 
 
@@ -106,12 +106,21 @@ export const achievements = [
   {
     id: "a-1",
     icon: leetcode,
-    event: "LeetCode | 150+ problems solved",
+    event: "LeetCode | 200+ problems solved",
     position: "",
     content1: "Developed strong algorithmic thinking through regular coding challenges.",
-    content2: "Explored topics including trees, backtracking, searching, recursion, and sliding window etc.",
+    content2: "Explored topics including trees, backtracking, graphs, greedy algorithms and dynamic programming etc.",
     content3: "Improved efficiency and accuracy in solving complex problems.",
     project: "https://www.leetcode.com/harsha_1824",
+  },
+  {
+    id: "a-2",
+    icon: gfg,
+    event: "GeekForGeeks",
+    position: "",
+    content1: "Consistent problem solver on GeeksforGeeks with strong grasp on data structures and algorithms.",
+    content2: "Solved 50+ problems spanning arrays, trees, graphs and dynamic programming.",
+    project: "https://www.geeksforgeeks.org/user/harshapragalhhbp/",
   },
   {
     id: "a-2",
@@ -119,7 +128,7 @@ export const achievements = [
     event: "CodeChef",
     position: "",
     content1: "Active competitive programmer on CodeChef and a regular participant in weekly contests.",
-    content3: "Solved 50+ problems across diverse DSA topics.",
+    content2: "Solved 50+ problems across diverse DSA topics.",
     project: "https://www.codechef.com/users/harsha1824",
   }
 ];
@@ -319,12 +328,50 @@ export const projects = [
         id: "icon-5",
         icon: SiMongodb,
         name: "MongoDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       }
     ],
   },
   
   {
     id: "project-2",
+    title: "Library Management",
+    github: "https://github.com/HarshaPragallapati/Library_Management",
+    link: "",
+    image: library,
+    content:
+      "A web-based library management system built with Java and Spring Boot. The system provides a simple interface to manage books, authors, categories, and publishers with full CRUD operations.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiSpringboot,
+        name: "SpringBoot"
+      },
+      {
+        id: "icon-2",
+        icon: SiMysql,
+        name: "MySQL"
+        
+      },
+      {
+        id: "icon-3",
+        icon: SiThymeleaf,
+        name: "Thymeleaf"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      }
+    ],
+  },
+
+  {
+    id: "project-3",
     title: "Employee Management",
     github: "https://github.com/HarshaPragallapati/RESTful-Employee-Management-API",
     link: "",
@@ -340,7 +387,7 @@ export const projects = [
       {
         id: "icon-2",
         icon: SiMysql,
-        name: "My SQL"
+        name: "MySQL"
         
       },
       {
@@ -356,7 +403,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Portfolio",
     github: "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO",
     link: "https://harsha-pragallapati.netlify.app/",
@@ -381,7 +428,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Insurance Price Prediction",
     github: "https://github.com/HarshaPragallapati/MedicalInsurancePrediction",
     link: "",

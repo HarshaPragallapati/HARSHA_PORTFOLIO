@@ -13,6 +13,8 @@ import codechef from "./codechef.png"
 import nipuna from "./nipuna.png"
 import employee from "./employee.png"
 import harsha_svg from "./harsha.svg"
+import gfg from "./gfg-logo.svg"
+import library from "./library.jpg"
 
 export {
   menu,
@@ -29,5 +31,7 @@ export {
   codechef,
   nipuna,
   employee,
-  harsha_svg
+  harsha_svg,
+  gfg,
+  library
 };
